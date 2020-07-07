@@ -1,0 +1,15 @@
+ERROR:Logger:Error!Sigment is not found
+Traceback (most recent call last):
+  File "C:\Users\User\PycharmProjects\BOT\NotABot\SiteParser.py", line 14, in Site_parser
+    div:nth-child(1) > div > div:nth-child(2)')
+  File "C:\Users\User\PycharmProjects\BOT\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 598, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "C:\Users\User\PycharmProjects\BOT\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\User\PycharmProjects\BOT\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\User\PycharmProjects\BOT\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"body > div.layout-wrapper.padding-top-default.bg-white.position-relative >         div.layout-columns-wrapper > main > div.tabs-big > div:nth-child(2) > div:nth-child(1) > section > div >         div:nth-child(1) > div > div:nth-child(2)"}
+  (Session info: chrome=83.0.4103.116)
+
